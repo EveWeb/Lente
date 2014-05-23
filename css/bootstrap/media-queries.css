@@ -1,0 +1,1257 @@
+
+ /*==============================for the mobile=================================*/
+
+ @media screen and (max-width: 480px) and (min-width: 320px) {
+
+ 	h1 {
+ 		font-size: 25px;
+ 		text-align: center;
+ 	}
+
+ 	#secondary_nav {
+ 		background: gray;
+		float: left;
+		margin: 10% 10%;
+		width: 50%;
+		vertical-align: middle;
+		list-style-type: none;
+		border-radius: 0px;
+		position: fixed;
+		z-index: 99999;
+ 	}
+
+
+ 	.tagline {
+ 		width: 95%;
+ 		margin: 0 2.5%;
+ 	}
+ 
+ 	.words h1 {
+   		font-size: 16px;
+   		color:#fff;
+   		font-weight: lighter;
+   		text-align: center;
+   		margin: 0;
+ 	}
+
+ 	.words h3 {
+ 		color: #fff;
+		font-size: 12px;
+		text-align: center;
+	}
+ 	.wrapper {
+ 		width: 95%;
+ 		padding-top: 5px;
+ 	}
+
+ 	.wrapper h2,
+ 	h2 {
+ 	font-size: 14px;
+ 	text-align: left;
+ 	}
+ 
+	.info h3,
+ 	h3 {
+		color: gray;
+ 		font-size: 15px;
+ 		text-align: center;
+ 	}
+ 	
+ 	.btn-circle {
+ 		width: 8%;
+ 		height: 15%;
+ 	}
+
+ 	.btn-blue {
+ 		width: 247px;
+ 		margin: 10% -55%;
+ 	}
+
+ 	.button2 {
+		margin-top: -8%;
+		position: absolute;
+		margin-left: -42%;
+	}
+
+
+ 
+	#process {
+		width: 100%;
+		height: 100%;
+	}
+ 
+	.showcase-item-box{
+		width: 24%;
+		height: 325px;
+		margin: 0.3%;
+	}
+	.showcase-item-box img {
+		max-width: 60%;
+ 	}
+ 
+	.showcase-item-box h3 {
+		color: #fff;
+		font-size: 12px;
+		margin: 25% -20%;
+	}
+
+	.showcase-item-box p {
+		color: #fff;
+		font-size: 11px;
+		margin-top: 10%;
+	}
+
+
+ 	.gray-box {
+		position: relative;
+		top: 0;
+		right: -1%;
+		width: 97.3%;
+		height: 140px;
+ 	}
+ 
+	.tools h2,
+	.carousel-caption h2,
+ 	.gray-box h2 {
+		color: #000;
+ 		font-size: 15px;
+ 	}
+ 
+	.carousel-caption p,
+ 	.gray-box p {
+ 		font-size: 12px;
+		color: #000;
+ 	}
+
+	.tools {
+		margin-top: -5%;
+	}
+
+	.cms img {
+		width: 10%;
+		height: 10%;
+	}
+
+	#carousel-example-generic{
+ 		margin-top: 5%;
+		margin-left: -2%;
+ 	}
+ 
+	#projects {
+		width: 100%;
+	}
+	.#carousel-inner .item img {
+		max-width: 20%;
+	}
+
+	.carousel-caption {
+  		position: relative;
+  		right: 0;
+  		bottom: 20px;
+  		left: 5%;
+
+	}
+
+	.carousel-indicators {
+		margin-top: 10%;
+	}
+
+	.item img {
+		max-width: 30%;
+	}
+
+	#members {
+		margin-left: 4%;
+		margin-top: 5%;
+		margin-bottom: 10%;
+		width: 26%;
+		height: 100%;
+	}
+
+	#members img {
+		max-width: 100px;
+	}
+
+	#members h3 {
+		font-size: 11px;
+		width: 84px;
+ 		height: 100%;
+ 		margin: 10% auto;
+	}
+
+	#members p {
+		font-size: 10px;
+		width: 85px;
+		height: 100%;
+		margin: 10% auto;
+	}
+
+	.socialnets {
+		width: 100px;
+		margin: 11% 0%;
+	}
+
+	.title h3 {
+		font-size: 11.7px;
+		width: 79%;
+		margin: 0 auto;
+	}
+
+	#footer-about {
+		max-width: 100%;
+		margin-top: 93%;
+ 	}
+ 
+ 	.form {
+ 	width: 100%;
+ 	}
+
+ 	#contact-info {
+ 		margin-left: 0%;
+ 		margin-top: 20%;
+ 	}
+
+}
+
+
+ /*==============================for the medium=================================*/
+
+ @media screen and (max-width: 600px) and (min-width: 433px) {
+
+ 	h1 {
+ 		font-size: 25px;
+ 		text-align: center;
+ 	}
+
+ 	#secondary_nav {
+ 		background: gray;
+		float: left;
+		margin: 10% 10%;
+		width: 50%;
+		vertical-align: middle;
+		list-style-type: none;
+		border-radius: 0px;
+		position: fixed;
+		z-index: 99999;
+ 	}
+
+ 	.tagline {
+ 		width: 95%;
+ 		margin: 0 2.5%;
+ 	}
+ 
+ 	.words h1 {
+   		font-size: 16px;
+   		color:#fff;
+   		font-weight: lighter;
+   		text-align: center;
+   		margin: 0;
+ 	}
+
+ 	.words h3 {
+ 		color: #fff;
+		font-size: 12px;
+		text-align: center;
+	}
+ 	.wrapper {
+ 		width: 90%;
+ 		padding-top: 5px;
+ 	}
+
+ 	.wrapper h2,
+ 	h2 {
+ 	font-size: 14px;
+ 	text-align: left;
+ 	}
+ 
+	.info h3,
+ 	h3 {
+		color: gray;
+ 		font-size: 15px;
+ 		text-align: center;
+ 	}
+ 	
+ 	.btn-circle {
+ 		width: 8%;
+ 		height: 15%;
+ 	}
+
+ 	.btn-blue {
+ 		width: 294px;
+ 		margin: 10% -15%;
+ 	}
+
+ 	.button2 {
+		margin-top: -8%;
+		position: absolute;
+		margin-left: -9%;
+	}
+
+
+ 
+	#process {
+		width: 100%;
+		height: 100%;
+	}
+ 
+	.showcase-item-box{
+		width: 24%;
+		height: 325px;
+		margin: 0.3%;
+	}
+	.showcase-item-box img {
+		max-width: 60%;
+ 	}
+ 
+	.showcase-item-box h3 {
+		color: #fff;
+		font-size: 12px;
+		margin: 25% -20%;
+	}
+
+	.showcase-item-box p {
+		color: #fff;
+		font-size: 11px;
+		margin-top: 10%;
+	}
+
+
+ 	.gray-box {
+		position: relative;
+		top: 0;
+		right: -1%;
+		width: 97.3%;
+		height: 140px;
+ 	}
+ 
+	.tools h2,
+	.carousel-caption h2,
+ 	.gray-box h2 {
+		color: #000;
+ 		font-size: 15px;
+ 	}
+ 
+	.carousel-caption p,
+ 	.gray-box p {
+ 		font-size: 12px;
+		color: #000;
+ 	}
+
+	.tools {
+		margin-top: -5%;
+	}
+
+	.cms img {
+		width: 10%;
+		height: 10%;
+	}
+
+	#carousel-example-generic{
+ 		margin-top: 5%;
+		margin-left: -2%;
+ 	}
+ 
+	#projects {
+		width: 100%;
+	}
+	.#carousel-inner .item img {
+		max-width: 20%;
+	}
+
+	.carousel-caption {
+  		position: relative;
+  		right: 0;
+  		bottom: 20px;
+  		left: 0%;
+
+	}
+
+	.carousel-indicators {
+		margin-top: 10%;
+	}
+
+	.item img {
+		max-width: 30%;
+	}
+
+	#members {
+		margin-left: 4%;
+		margin-top: 5%;
+		margin-bottom: 10%;
+		width: 26%;
+		height: 100%;
+	}
+
+	#members img {
+		max-width: 100px;
+	}
+
+	#members h3 {
+		font-size: 11px;
+		width: 84px;
+ 		height: 100%;
+ 		margin: 10% auto;
+	}
+
+	#members p {
+		font-size: 10px;
+		width: 85px;
+		height: 100%;
+		margin: 10% auto;
+	}
+
+	.socialnets {
+		width: 100px;
+		margin: 11% 0%;
+	}
+
+	.title h3 {
+		font-size: 11.7px;
+		width: 79%;
+		margin: 0 auto;
+	}
+
+	#footer-about {
+		max-width: 100%;
+		margin-top: 65%;
+ 	}
+ 
+ 	.form {
+ 	width: 100%;
+ 	}
+
+ 	#contact-info {
+ 		margin-left: 0%;
+ 		margin-top: 20%;
+ 	}
+
+}
+
+/*==============================for the large tablet=================================*/
+
+ @media screen and (max-width: 741px) and (min-width: 541px) {
+
+ 	h1 {
+ 		font-size: 25px;
+ 		text-align: center;
+ 	}
+
+ 	#secondary_nav {
+ 		position: absolute;
+  		height: 1px;
+  		padding: 0;
+  		margin: 10% 10%;
+		width: 50%;
+ 	}
+
+
+ 	.tagline {
+ 		width: 95%;
+ 		margin: 0 2.5%;
+ 	}
+ 
+ 	.words h1 {
+   		font-size: 16px;
+   		color:#fff;
+   		font-weight: lighter;
+   		text-align: center;
+   		margin: 0;
+ 	}
+
+ 	.words h3 {
+ 		color: #fff;
+		font-size: 12px;
+		text-align: center;
+	}
+ 	.wrapper {
+ 		width: 90%;
+ 		padding-top: 5px;
+ 	}
+
+ 	.wrapper h2,
+ 	h2 {
+ 	font-size: 14px;
+ 	text-align: left;
+ 	}
+ 
+	.info h3,
+ 	h3 {
+		color: gray;
+ 		font-size: 15px;
+ 		text-align: center;
+ 	}
+ 	
+ 	.btn-circle {
+ 		width: 7.5%;
+ 		height: 50%;
+ 	}
+
+ 	.btn-blue {
+ 		width: 294px;
+ 		margin: 10% -15%;
+ 	}
+
+ 	.button2 {
+		margin-top: -6%;
+		position: absolute;
+		margin-left: -9%;
+	}
+
+
+ 
+	#process {
+		width: 100%;
+		height: 100%;
+	}
+ 
+	.showcase-item-box{
+		width: 24%;
+		height: 325px;
+		margin: 0.3%;
+	}
+	.showcase-item-box img {
+		max-width: 60%;
+ 	}
+ 
+	.showcase-item-box h3 {
+		color: #fff;
+		font-size: 12px;
+		margin: 25% -20%;
+	}
+
+	.showcase-item-box p {
+		color: #fff;
+		font-size: 11px;
+		margin-top: 10%;
+	}
+
+
+ 	.gray-box {
+		position: relative;
+		top: 0;
+		right: -1%;
+		width: 97.3%;
+		height: 140px;
+ 	}
+ 
+	.tools h2,
+	.carousel-caption h2,
+ 	.gray-box h2 {
+		color: #000;
+ 		font-size: 15px;
+ 	}
+ 
+	.carousel-caption p,
+ 	.gray-box p {
+ 		font-size: 12px;
+		color: #000;
+ 	}
+
+	.tools {
+		margin-top: -5%;
+	}
+
+	.cms img {
+		width: 10%;
+		height: 10%;
+	}
+
+	#carousel-example-generic{
+ 		margin-top: 5%;
+		margin-left: -2%;
+ 	}
+ 
+	#projects {
+		width: 100%;
+	}
+	.#carousel-inner .item img {
+		max-width: 20%;
+	}
+
+	.carousel-caption {
+  		position: relative;
+  		right: 0;
+  		bottom: 20px;
+  		left: 0%;
+
+	}
+
+	.carousel-indicators {
+		margin-top: 10%;
+	}
+
+	.item img {
+		max-width: 30%;
+	}
+
+	#members {
+		margin-left: 5%;
+		margin-top: 5%;
+		margin-bottom: 10%;
+		width: 26%;
+		height: 100%;
+	}
+
+	#members img {
+		max-width: 100px;
+	}
+
+	#members h3 {
+		font-size: 11px;
+		width: 84px;
+ 		height: 100%;
+ 		margin: 10% auto;
+	}
+
+	#members p {
+		font-size: 10px;
+		width: 85px;
+		height: 100%;
+		margin: 10% auto;
+	}
+
+	.socialnets {
+		width: 100px;
+		margin: 11% 11%;
+	}
+
+	.title h3 {
+		font-size: 11.7px;
+		width: 79%;
+		margin: 0 auto;
+	}
+
+	#footer-about {
+		max-width: 100%;
+		margin-top: 65%;
+ 	}
+ 
+ 	.form {
+ 	width: 100%;
+ 	}
+
+ 	#contact-info {
+ 		margin-left: 0%;
+ 		margin-top: 20%;
+ 	}
+
+}
+/*==============================for the large larger=================================*/
+
+ @media screen and (max-width: 960px) and (min-width: 667px) {
+
+ 	h1 {
+ 		font-size: 25px;
+ 		text-align: center;
+ 	}
+
+ 	.tagline {
+ 		width: 85%;
+ 		margin: 0 7%;
+ 	}
+ 
+ 	.words h1 {
+   		font-size: 16px;
+   		color:#fff;
+   		font-weight: lighter;
+   		text-align: center;
+   		margin: 0;
+ 	}
+
+ 	.words h3 {
+ 		color: #fff;
+		font-size: 12px;
+		text-align: center;
+	}
+ 	.wrapper {
+ 		width: 80%;
+ 		padding-top: 5px;
+ 	}
+
+ 	.wrapper h2,
+ 	h2 {
+ 	font-size: 14px;
+ 	text-align: left;
+ 	}
+ 
+	.info h3,
+ 	h3 {
+		color: gray;
+ 		font-size: 15px;
+ 		text-align: center;
+ 	}
+ 	
+ 	.btn-circle {
+ 		width: 6%;
+ 		height: 70%;
+ 	}
+
+ 	.btn-blue {
+ 		width: 294px;
+ 		margin: 10% -15%;
+ 	}
+
+ 	.button2 {
+		margin-top: -6%;
+		position: absolute;
+		margin-left: -9%;
+	}
+
+
+ 
+	#process {
+		width: 100%;
+		height: 100%;
+	}
+ 
+	.showcase-item-box{
+		width: 24%;
+		height: 325px;
+		margin: 0.3%;
+	}
+	.showcase-item-box img {
+		max-width: 60%;
+ 	}
+ 
+	.showcase-item-box h3 {
+		color: #fff;
+		font-size: 12px;
+		margin: 25% -20%;
+	}
+
+	.showcase-item-box p {
+		color: #fff;
+		font-size: 11px;
+		margin-top: 10%;
+	}
+
+
+ 	.gray-box {
+		position: relative;
+		top: 0;
+		right: -1%;
+		width: 97.3%;
+		height: 140px;
+ 	}
+ 
+	.tools h2,
+	.carousel-caption h2,
+ 	.gray-box h2 {
+		color: #000;
+ 		font-size: 15px;
+ 	}
+ 
+	.carousel-caption p,
+ 	.gray-box p {
+ 		font-size: 12px;
+		color: #000;
+ 	}
+
+	.tools {
+		margin-top: -5%;
+	}
+
+	.cms img {
+		width: 10%;
+		height: 10%;
+	}
+
+	#carousel-example-generic{
+		width: 90%;
+ 		margin-top: 5%;
+		margin-left: 8%;
+ 	}
+ 
+	#projects {
+		width: 100%;
+	}
+	.#carousel-inner .item img {
+		max-width: 20%;
+	}
+
+	.carousel-caption {
+  		position: relative;
+  		right: 0;
+  		bottom: 20px;
+  		left: 0%;
+
+	}
+
+	.carousel-indicators {
+		margin-top: 10%;
+	}
+
+	.item img {
+		max-width: 30%;
+	}
+
+	#members {
+		margin-left: 5%;
+		margin-top: 5%;
+		margin-bottom: 10%;
+		width: 26%;
+		height: 100%;
+	}
+
+	#members img {
+		max-width: 150px;
+	}
+
+	#members h3 {
+		font-size: 11px;
+		width: 84px;
+ 		height: 100%;
+ 		margin: 10% 20%;
+	}
+
+	#members p {
+		font-size: 11px;
+		width: 100px;
+		height: 100%;
+		margin: 10% 20%;
+	}
+
+	.socialnets {
+		width: 100px;
+		margin: 11% 25%;
+	}
+
+	.title h3 {
+		font-size: 11.7px;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#footer-about {
+		max-width: 100%;
+		height: 100%;
+		margin-top: 60%;
+ 	}
+ 
+ 	.form {
+ 	width: 86%;
+ 	}
+
+ 	#contact-info {
+ 		width: 85%;
+ 		margin-left: -2%;
+ 		margin-top: 20%;
+ 	}
+
+}
+
+/*==============================for the large larger=================================*/
+
+ @media screen and (max-width: 1024px) and (min-width: 865px) {
+
+ 	h1 {
+ 		font-size: 25px;
+ 		text-align: center;
+ 	}
+
+ 	.tagline {
+ 		width: 70%;
+ 		margin: 0 15%;
+ 	}
+ 
+ 	.words h1 {
+   		font-size: 16px;
+   		color:#fff;
+   		font-weight: lighter;
+   		text-align: center;
+   		margin: 0;
+ 	}
+
+ 	.words h3 {
+ 		color: #fff;
+		font-size: 12px;
+		text-align: center;
+	}
+ 	.wrapper {
+ 		width: 70%;
+ 		padding-top: 5px;
+ 	}
+
+ 	.wrapper h2,
+ 	h2 {
+ 	font-size: 14px;
+ 	text-align: left;
+ 	}
+ 
+	.info h3,
+ 	h3 {
+		color: gray;
+ 		font-size: 15px;
+ 		text-align: center;
+ 	}
+ 	
+ 	.btn-circle {
+ 		width: 6%;
+ 		height: 100%;
+ 	}
+
+ 	.btn-blue {
+ 		width: 294px;
+ 		margin: 10% -15%;
+ 	}
+
+ 	.button2 {
+		margin-top: -12%;
+		position: absolute;
+		margin-left: 42%;
+	}
+
+
+ 
+	#process {
+		width: 100%;
+		height: 100%;
+	}
+ 
+	.showcase-item-box{
+		width: 24%;
+		height: 325px;
+		margin: 0.3%;
+	}
+	.showcase-item-box img {
+		max-width: 60%;
+ 	}
+ 
+	.showcase-item-box h3 {
+		color: #fff;
+		font-size: 12px;
+		margin: 25% -20%;
+	}
+
+	.showcase-item-box p {
+		color: #fff;
+		font-size: 11px;
+		margin-top: 10%;
+	}
+
+
+ 	.gray-box {
+		position: relative;
+		top: 0;
+		right: -1%;
+		width: 97.3%;
+		height: 140px;
+ 	}
+ 
+	.tools h2,
+	.carousel-caption h2,
+ 	.gray-box h2 {
+		color: #000;
+ 		font-size: 15px;
+ 	}
+ 
+	.carousel-caption p,
+ 	.gray-box p {
+ 		font-size: 12px;
+		color: #000;
+ 	}
+
+	.tools {
+		margin-top: -5%;
+	}
+
+	.cms img {
+		width: 10%;
+		height: 10%;
+	}
+
+	#carousel-example-generic{
+		width: 90%;
+ 		margin-top: 5%;
+		margin-left: 8%;
+ 	}
+ 
+	#projects {
+		width: 100%;
+	}
+	.#carousel-inner .item img {
+		max-width: 20%;
+	}
+
+	.carousel-caption {
+  		position: relative;
+  		right: 0;
+  		bottom: 20px;
+  		left: 0%;
+
+	}
+
+	.carousel-indicators {
+		margin-top: 10%;
+	}
+
+	.item img {
+		max-width: 30%;
+	}
+
+	#members {
+		margin-left: 5%;
+		margin-top: 5%;
+		margin-bottom: 10%;
+		width: 26%;
+		height: 100%;
+	}
+
+	#members img {
+		max-width: 150px;
+	}
+
+	#members h3 {
+		font-size: 11px;
+		width: 84px;
+ 		height: 100%;
+ 		margin: 10% 20%;
+	}
+
+	#members p {
+		font-size: 11px;
+		width: 100px;
+		height: 100%;
+		margin: 10% 20%;
+	}
+
+	.socialnets {
+		width: 100px;
+		margin: 11% 25%;
+	}
+
+	.title h3 {
+		font-size: 11.7px;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#footer-about {
+		max-width: 100%;
+		height: 100%;
+		margin-top: 60%;
+ 	}
+ 
+ 	.form {
+ 	width: 70%;
+ 	}
+
+ 	#contact-info {
+ 		width: 70%;
+ 		margin-left: -2%;
+ 		margin-top: 20%;
+ 	}
+
+}
+
+/*==============================for the large larger=================================*/
+
+ @media screen and (max-width: 1200px) and (min-width: 923px) {
+
+ 	h1 {
+ 		font-size: 25px;
+ 		text-align: center;
+ 	}
+
+ 	.tagline {
+ 		width: 70%;
+ 		margin: 0 15%;
+ 	}
+ 
+ 	.words h1 {
+   		font-size: 16px;
+   		color:#fff;
+   		font-weight: lighter;
+   		text-align: center;
+   		margin: 0;
+ 	}
+
+ 	.words h3 {
+ 		color: #fff;
+		font-size: 12px;
+		text-align: center;
+	}
+ 	.wrapper {
+ 		width: 70%;
+ 		padding-top: 5px;
+ 	}
+
+ 	.wrapper h2,
+ 	h2 {
+ 	font-size: 14px;
+ 	text-align: left;
+ 	}
+ 
+	.info h3,
+ 	h3 {
+		color: gray;
+ 		font-size: 15px;
+ 		text-align: center;
+ 	}
+ 	
+ 	.btn-circle {
+ 		width: 5%;
+ 		height: 100%;
+ 	}
+
+ 	.btn-blue {
+ 		width: 294px;
+ 		margin: 10% -15%;
+ 	}
+
+ 	.button2 {
+		margin-top: -8%;
+		position: absolute;
+		margin-left: 50%;
+	}
+
+
+ 
+	#process {
+		width: 100%;
+		height: 100%;
+	}
+ 
+	.showcase-item-box{
+		width: 24%;
+		height: 325px;
+		margin: 0.3%;
+	}
+	.showcase-item-box img {
+		max-width: 60%;
+ 	}
+ 
+	.showcase-item-box h3 {
+		color: #fff;
+		font-size: 12px;
+		margin: 25% -20%;
+	}
+
+	.showcase-item-box p {
+		color: #fff;
+		font-size: 11px;
+		margin-top: 10%;
+	}
+
+
+ 	.gray-box {
+		position: relative;
+		top: 0;
+		right: -1%;
+		width: 97.3%;
+		height: 140px;
+ 	}
+ 
+	.tools h2,
+	.carousel-caption h2,
+ 	.gray-box h2 {
+		color: #000;
+ 		font-size: 15px;
+ 	}
+ 
+	.carousel-caption p,
+ 	.gray-box p {
+ 		font-size: 12px;
+		color: #000;
+ 	}
+
+	.tools {
+		margin-top: -5%;
+	}
+
+	.cms img {
+		width: 10%;
+		height: 10%;
+	}
+
+	#carousel-example-generic{
+		width: 90%;
+ 		margin: 7% 7%;
+ 	}
+
+ 	#carousel-example-generic img{
+ 		max-width: 60%;
+ 	}
+ 
+	#projects {
+		width: 100%;
+	}
+	.#carousel-inner .item img {
+		max-width: 20%;
+	}
+
+	.carousel-caption {
+  		position: absolute;
+  		right: 0;
+  		bottom: 20px;
+  		left: 60%;
+
+	}
+
+	.carousel-indicators {
+		margin-top: 10%;
+	}
+
+	.item img {
+		max-width: 30%;
+	}
+
+	#members {
+		margin-left: 5%;
+		margin-top: 5%;
+		margin-bottom: 10%;
+		width: 26%;
+		height: 100%;
+	}
+
+	#members img {
+		max-width: 150px;
+	}
+
+	#members h3 {
+		font-size: 11px;
+		width: 84px;
+ 		height: 100%;
+ 		margin: 10% 20%;
+	}
+
+	#members p {
+		font-size: 11px;
+		width: 100px;
+		height: 100%;
+		margin: 10% 20%;
+	}
+
+	.socialnets {
+		width: 100px;
+		margin: 11% 25%;
+	}
+
+	.title h3 {
+		font-size: 11.7px;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#footer-about {
+		max-width: 100%;
+		height: 100%;
+		margin-top: 60%;
+ 	}
+ 
+ 	.form {
+ 	width: 55%;
+ 	}
+
+ 	#contact-info {
+ 		width: 55%;
+ 		margin-left: -2%;
+ 		margin-top: 20%;
+ 	}
+
+}
+
+ 
+ 
+ 
+ 

@@ -1,0 +1,206 @@
+
+ /*==============================for the mobile device=================================*/
+ @media only screen and (min-width: 768px) and (max-width: 1024px;){
+
+ 	h1 {
+ 		letter-spacing: 5px;
+ 		font-size: 25px;
+ 		text-align: center;
+ 	}
+
+ 	.tagline {
+ 		width: 95%;
+ 		margin: 0 2.5%;
+ 	}
+ 
+ 	.words h1 {
+   		font-size: 16px;
+   		color:#fff;
+   		font-weight: lighter;
+   		text-align: center;
+   		margin: 0;
+ 	}
+
+ 	.words h3 {
+ 		color: #fff;
+		font-size: 12px;
+		text-align: center;
+	}
+ 	.wrapper {
+ 		width: 100%;
+ 		padding-top: 5px;
+ 	}
+
+ 	.wrapper h2,
+ 	h2 {
+ 	font-size: 14px;
+ 	text-align: left;
+ 	}
+ 
+	.info h3,
+ 	h3 {
+		color: gray;
+ 		font-size: 15px;
+ 		text-align: center;
+ 	}
+ 	
+ 	.circle{
+ 		padding-left: 10%;
+ 	  	height:35px;
+  		width: 7%;
+  		background: #fff;
+		/*  border-radius: 15px;*/
+  		border-radius: 90px 90px 0 0;
+  		-moz-border-radius: 90px 90px 0 0;
+  		-webkit-border-radius: 90px 90px 0 0;
+ 	}
+
+ 	.btn-blue {
+ 		width: 294px;
+ 	}
+
+ 	.button2 {
+		margin-top: -16%;
+		text-align: left;
+	}
+
+
+ 
+	#process {
+		width: 100%;
+		height: 100%;
+	}
+ 
+	.showcase-item-box{
+		width: 24%;
+		height: 325px;
+		margin: 0.3%;
+	}
+	.showcase-item-box img {
+		max-width: 60%;
+ 	}
+ 
+	.showcase-item-box h3 {
+		color: #fff;
+		font-size: 13px;
+		margin-top: 40%;
+		padding: 0;
+	}
+
+	.showcase-item-box p {
+		color: #fff;
+		font-size: 11px;
+		margin-top: 10%;
+	}
+
+
+ 	.gray-box {
+		position: relative;
+		top: 0;
+		right: 0%;
+		width: 97.3%;
+		height: 140px;
+ 	}
+ 
+	.tools h2,
+	.carousel-caption h2,
+ 	.gray-box h2 {
+		color: #000;
+ 		font-size: 15px;
+ 	}
+ 
+	.carousel-caption p,
+ 	.gray-box p {
+ 		font-size: 12px;
+		color: #000;
+ 	}
+
+	.tools {
+		margin-top: -5%;
+	}
+
+	.cms img {
+		width: 10%;
+		height: 10%;
+	}
+
+	#carousel-example-generic{
+ 		margin-top: 5%;
+		margin-left: -2%;
+ 	}
+ 
+	#projects {
+		width: 100%;
+	}
+	.#carousel-inner .item img {
+		max-width: 20%;
+	}
+
+	.carousel-caption {
+  		position: relative;
+  		right: 0;
+  		bottom: 20px;
+  		left: 5%;
+
+	}
+
+	.carousel-indicators {
+		margin-top: 10%;
+	}
+
+	.item img {
+		max-width: 30%;
+	}
+
+	#members {
+		margin-left: 4%;
+		margin-top: 5%;
+		margin-bottom: 10%;
+		width: 26%;
+		height: 100%;
+	}
+
+	#members img {
+		max-width: 100px;
+	}
+
+	#members h3 {
+		font-size: 11px;
+		width: 84px;
+ 		height: 100%;
+ 		margin: 10% auto;
+	}
+
+	#members p {
+		font-size: 10px;
+		width: 85px;
+		height: 100%;
+		margin: 10% auto;
+	}
+
+	.socialnets {
+		width: 100px;
+		margin: 11% 0%;
+	}
+
+	.title h3 {
+		font-size: 11.7px;
+		width: 79%;
+		margin: 0 auto;
+	}
+
+	#footer-about {
+		max-width: 100%;
+		margin-top: 93%;
+ 	}
+ 
+ 	.form {
+ 	width: 100%;
+ 	}
+
+ 	#contact-info {
+ 		margin-left: 0%;
+ 		margin-top: 20%;
+ 	}
+
+}
