@@ -4,9 +4,9 @@
 
 @media (min-width:960px) and (max-width: 1280px) {
 
-/*HOME*/
-	#home .tagline {text-align: center;}
 }
+
+/*======================mobile device 320PX============================*/
 
 @media only screen and (min-width:320px) {
 
@@ -31,8 +31,9 @@
 	#portfolio .item >img {height: 250px;}
 
 /*ABOUT*/
-	#about .about-title {padding-top: 5em;}
+	#about .about-title {padding-top: 5em; padding-bottom: 5em;}
 	#about .read-more {position: relative; left: 10%;}
+	#about .side-photo {padding-top: 0;}
 
 /*CONTACT*/
 	#contact .contact-title {padding-bottom: 0.5em;}
@@ -44,6 +45,209 @@
 	#footer-holder .copyright {text-align: center;}
 	#footer-holder .sc >li {position: relative;float: left; margin-left: 1em;}
 }
+
+/*======================mobile device 360PX============================*/
+
+@media only screen and (min-width:360px) {
+
+	.h2-gray {color: #444;}
+	.h3-gray {color: #fff; font-size: 18px;}
+	.p-gray {color: #444;}
+
+/*HOME*/
+	#home .tagline >h1 {text-align: center; font-size: 5em;}
+	#home .tagline >h3 {font-weight: 300; padding-bottom: 0.5em; font-size: 1em; line-height: 1.5em;}
+	#home .arrow {margin-bottom: 5em; position: relative; left: 41%; color: #fff; background: none !important; border: 2px solid #fff; border-radius: 50%; width: 50px; height: 50px;}
+	#home .arrow >i {font-size: 1.8em; position: absolute; padding-top: 0.1em;}
+
+/*SERVICES*/
+	#services {background: #444;}
+	#services .service-title {text-align: center; padding-top: 30px;}
+	#services .service-title >p {text-align: center;}
+	#services .list {font-size: 0.9em; position: relative; width: 180px; height: 180px; left: 19%; margin-bottom: 5em;}
+	#services .read-more {left: 19%; margin-top: 0;}
+
+/*PORTFOLIO*/
+	#portfolio .item >img {height: 250px;}
+
+/*ABOUT*/
+	#about .about-title {padding-top: 5em; padding-bottom: 5em;}
+	#about .read-more {position: relative; left: 15.2%;}
+	#about .side-photo {padding-top: 0;}
+
+/*CONTACT*/
+	#contact .contact-title {padding-bottom: 0.5em;}
+	#contact .contact-form {float: left; width: 250px; height: 325px; position: relative; left: 5.5%;}
+	#contact .contact-info {float: left; position: relative; margin-bottom: 3em;}
+	#contact .contact-info >h2 {position: relative; margin-top: 1.5em; padding-bottom: 0.8em;}
+
+/*FOOTER*/
+	#footer-holder .copyright {text-align: center;}
+	#footer-holder .sc >li {position: relative;float: left; margin-left: 1em; left: 7%;}
+}
+
+/*======================Tablet Devices 460PX============================*/
+
+@media only screen and (min-width:460px) {
+
+	.h2-gray {color: #444;}
+	.h3-gray {color: #fff; font-size: 18px;}
+	.p-gray {color: #444;}
+
+/*HOME*/
+	#home .tagline >h1 {text-align: center; font-size: 6em;}
+	#home .tagline >h3 {font-weight: 300; padding-bottom: 0.5em; font-size: 1.3em; line-height: 1.5em;}
+	#home .arrow {margin-bottom: 5em; position: relative; left: 45%; color: #fff; background: none !important; border: 2px solid #fff; border-radius: 50%; width: 50px; height: 50px;}
+	#home .arrow >i {font-size: 1.8em; position: absolute; padding-top: 0.1em;}
+
+/*SERVICES*/
+	#services {background: #444;}
+	#services .service-title {text-align: center; padding-top: 30px;}
+	#services .service-title >p {text-align: center;}
+	#services .list {font-size: 1em; position: relative; width: 200px; height: 200px; left: 25.5%; margin-bottom: 5em;}
+	#services .read-more {left: 26%; margin-top: 0;}
+
+/*PORTFOLIO*/
+	#portfolio .item >img {height: 250px;}
+
+/*ABOUT*/
+	#about .about-title {padding-top: 5em; padding-bottom: 5em;}
+	#about .read-more {position: relative; left: 25%;}
+	#about .side-photo {padding-top: 0;}
+
+/*CONTACT*/
+	#contact .contact-title {padding-bottom: 0.5em;}
+	#contact .contact-form {float: left; width: 340px; height: 325px; position: relative; left: 5.5%;}
+	#contact .contact-info {float: left; position: relative; margin-bottom: 3em;}
+	#contact .contact-info >h2 {position: relative; margin-top: 1.5em; padding-bottom: 0.8em;}
+
+/*FOOTER*/
+	#footer-holder .copyright {text-align: center;}
+	#footer-holder .sc >li {position: relative;float: left; margin-left: 1em; left: 20%;}
+}
+
+/*======================Bigger Tablet Devices 560PX============================*/
+
+@media only screen and (min-width:560px) {
+
+	.h2-gray {color: #444;}
+	.h3-gray {color: #fff; font-size: 18px;}
+	.p-gray {color: #444;}
+
+/*HOME*/
+	#home .tagline >h1 {text-align: center; font-size: 7em;}
+	#home .tagline >h3 {font-weight: 300; padding-bottom: 0.5em; font-size: 1.5em; line-height: 1.5em;}
+	#home .arrow {margin-bottom: 5em; position: relative; left: 46%; color: #fff; background: none !important; border: 2px solid #fff; border-radius: 50%; width: 50px; height: 50px;}
+	#home .arrow >i {font-size: 1.8em; position: absolute; padding-top: 0.1em;}
+
+/*SERVICES*/
+	#services {background: #444;}
+	#services .service-title {text-align: center; padding-top: 30px;}
+	#services .service-title >p {text-align: center;}
+	#services .list {font-size: 1em; position: relative; width: 200px; height: 200px; left: 30%; margin-bottom: 5em;}
+	#services .read-more {left: 30%; margin-top: 0;}
+
+/*PORTFOLIO*/
+	#portfolio .item >img {height: 350px;}
+
+/*ABOUT*/
+	#about .about-title {padding-top: 5em; padding-bottom: 5em;}
+	#about .read-more {position: relative; left: 30%;}
+	#about .side-photo {padding-top: 0;}
+
+/*CONTACT*/
+	#contact .contact-title {padding-bottom: 0.5em;}
+	#contact .contact-form {float: left; width: 350px; height: 325px; position: relative; left: 14%;}
+	#contact .contact-info {float: left; position: relative; margin-bottom: 3em; position: relative; left: 11%;}
+	#contact .contact-info >h2 {position: relative; margin-top: 1.5em; padding-bottom: 0.8em;}
+
+/*FOOTER*/
+	#footer-holder .copyright {text-align: center;}
+	#footer-holder .sc >li {position: relative;float: left; margin-left: 1em; left: 27%;}
+}
+
+/*======================Bigger Tablet Devices 640PX============================*/
+
+@media only screen and (min-width:640px) {
+
+	.h2-gray {color: #444;}
+	.h3-gray {color: #fff; font-size: 18px;}
+	.p-gray {color: #444;}
+
+/*HOME*/
+	#home .tagline >h1 {text-align: center; font-size: 8em;}
+	#home .tagline >h3 {font-weight: 300; padding-bottom: 0.5em; font-size: 1.5em; line-height: 1.5em;}
+	#home .arrow {margin-bottom: 5em; position: relative; left: 46%; color: #fff; background: none !important; border: 2px solid #fff; border-radius: 50%; width: 50px; height: 50px;}
+	#home .arrow >i {font-size: 1.8em; position: absolute; padding-top: 0.1em;}
+
+/*SERVICES*/
+	#services {background: #444;}
+	#services .service-title {text-align: center; padding-top: 30px;}
+	#services .service-title >p {text-align: center;}
+	#services .list {font-size: 1em; position: relative; width: 200px; height: 200px; left: 32%; margin-bottom: 5em;}
+	#services .read-more {left: 33%; margin-top: 0;}
+
+/*PORTFOLIO*/
+	#portfolio .item >img {height: 450px;}
+
+/*ABOUT*/
+	#about .about-title {padding-top: 5em; padding-bottom: 5em;}
+	#about .read-more {position: relative; left: 33%;}
+	#about .side-photo {padding-top: 0;}
+
+/*CONTACT*/
+	#contact .contact-title {padding-bottom: 0.5em;}
+	#contact .contact-form {float: left; width: 235px; height: 325px; position: relative; margin-right: 5em; margin-left: -3em; margin-bottom: 4em;}
+	#contact .contact-info {float: left; position: relative; margin-bottom: 3em; position: relative;}
+	#contact .contact-info >h2 {position: relative; padding-bottom: 0.8em; margin-top: 0;}
+
+/*FOOTER*/
+	#footer-holder .copyright {text-align: center;}
+	#footer-holder .sc >li {position: relative;float: left; margin-left: 1em; left: 30%;}
+}
+
+
+/*======================Bigger Tablet Devices 760PX============================*/
+
+@media only screen and (max-width:760px) {
+
+	.h2-gray {color: #444;}
+	.h3-gray {color: #fff; font-size: 18px;}
+	.p-gray {color: #444;}
+
+/*HOME*/
+	#home .tagline >h1 {text-align: center; font-size: 9em;}
+	#home .tagline >h3 {font-weight: 300; padding-bottom: 0.5em; font-size: 1.5em; line-height: 1.5em;}
+	#home .arrow {margin-bottom: 5em; position: relative; left: 47%;}
+	#home .arrow >i {font-size: 1.8em; position: absolute; padding-top: 0.1em;}
+
+/*SERVICES*/
+	#services {background: #444;}
+	#services .service-title {text-align: center; padding-top: 30px;}
+	#services .service-title >p {text-align: center;}
+	#services .list {font-size: 1em; position: relative; width: 200px; height: 200px; left: 32%; margin-bottom: 5em;}
+	#services .read-more {left: 33%; margin-top: 0;}
+
+/*PORTFOLIO*/
+	#portfolio .item >img {height: 450px;}
+
+/*ABOUT*/
+	#about .about-title {padding-top: 5em; padding-bottom: 5em;}
+	#about .read-more {position: relative; left: 33%;}
+	#about .side-photo {padding-top: 0;}
+
+/*CONTACT*/
+	#contact .contact-title {padding-bottom: 0.5em;}
+	#contact .contact-form {float: left; width: 235px; height: 325px; position: relative; margin-right: 5em; margin-left: -3em; margin-bottom: 4em;}
+	#contact .contact-info {float: left; position: relative; margin-bottom: 3em; position: relative;}
+	#contact .contact-info >h2 {position: relative; padding-bottom: 0.8em; margin-top: 0;}
+
+/*FOOTER*/
+	#footer-holder .copyright {text-align: center;}
+	#footer-holder .sc >li {position: relative;float: left; margin-left: 1em; left: 30%;}
+}
+
+/*======================High Definition screen 1840PX============================*/
 
 @media only screen and (max-width: 1840px) {
 	h1 {font-weight: 300;}
@@ -73,7 +277,7 @@
 
 /*PORTFOLIO*/
 	#portfolio {padding: 0;}
-	#portfolio .item >img {height: 700px;}
+	#portfolio .item >img {height: 800px;}
 
 /*ABOUT*/
 	#about .about-title {padding-top: 10em; padding-bottom: 15em; text-align: left; color: #444;}
@@ -108,3 +312,8 @@
 	#footer-holder .sc >li >a {color: #fff;}
 	#footer-holder .sc >li >a:hover {text-decoration: none; color: #444;}
 }
+
+
+
+
+
