@@ -2,20 +2,17 @@
   body {font-size:100%; line-height: 1.5em;}
 
 /*HOME*/
-	#home .tagline {padding-top: 15em; text-align: center;}
-	#home .tagline >img {position: relative; left: 17%;}
-	#home .tagline >h5 {font-size: 2em; padding-bottom: 2em;}
-	#home .arrow {padding-top: 1.5em; margin: 5em; left: 43%;}
-	#home .arrow >i {font-size: 2em; color: #fff;}
+	#home .tagline {padding-top: 20em; text-align: center;}
+	#home .tagline >img {position: relative; left: 30%; padding-bottom: 7em;}
 
 /*SERVICES*/
-	#services .service-title {text-align: center; font-size: 100%; padding-top: 7em; padding-bottom: 7em;}
+	#services .service-title {text-align: center; font-size: 100%; padding-top: 10em; padding-bottom: 10em;}
 	#services .service-title >i {color: #444; font-size: 3em;}
 	#services .flaticons {position: relative; left: 17%;}
 	#services .list {width: 200px; height: 200px; position: relative; margin-bottom: 5em; margin-right: 5em; padding-top: 3em; float: left;}
 	#services .list-icons {font-size: 14em;}
 	#services .cat-name >h5 {font-size: 1.5em; position: relative; padding-top: 2.3em; text-align: center;}
-	#services .butones {position: relative; left: 43%; margin-top: 4em; margin-bottom: 5em;}
+	#services .butones {position: relative; left: 40%; margin-top: 4em; margin-bottom: 7em;}
 	#services .btn-lg >i {margin-right: 0.5em;}
 
 /*PORTFOLIO*/
@@ -23,12 +20,12 @@
 	#portfolio .item >img {height: 800px;}
 
 /*ABOUT*/
-	#about .about-title {font-size: 100%; padding-top: 5em; width: 50%;}
+	#about .about-title {font-size: 100%; padding-top: 10em; width: 50%;}
 	#about .btn-sm >i {margin-right: 0.5em;}
-	#about .side-photo {padding-top: 10em; padding-bottom: 7em; width: 50%;}
+	#about .side-photo {padding-top: 13em; padding-bottom: 7em; width: 50%;}
 
 /*CONTACT*/
-	#contact .contact-title {text-align: center; font-size: 100%; padding-bottom: 5em; padding-top: 10em;}
+	#contact .contact-title {text-align: center; font-size: 100%; padding-bottom: 5em; padding-top: 13em;}
 	#contact .contact-title >i {color: #444; font-size: 3em;}
 	#contact .contact-user {padding-bottom: 5em;}
 	#contact .contact-form {background: #1EA062; width: 45%; height: 315px; padding-top: 3em; position: relative;}
@@ -45,13 +42,51 @@
 
 }
 
+@media only screen and (max-width: 1280px) {
+/*HOME*/
+	#home .tagline {padding-top: 15em; text-align: center;}
+	#home .tagline >img {position: relative; left: 25%;}
+
+/*SERVICES*/
+	#services .service-title {text-align: center; font-size: 95%; padding-top: 7em; padding-bottom: 7em;}
+	#services .service-title >i {color: #444; font-size: 3em;}
+	#services .flaticons {position: relative; left: 19.5%;}
+	#services .list {width: 200px; height: 200px; position: relative; margin-bottom: 5em; margin-right: 4em; padding-top: 3em; float: left;}
+	#services .list-icons {font-size: 14em;}
+	#services .cat-name >h5 {font-size: 1.5em; position: relative; padding-top: 2.3em; text-align: center;}
+	#services .butones {position: relative; left: 42%; margin-top: 4em; margin-bottom: 5em;}
+	#services .btn-lg >i {margin-right: 0.5em;}
+
+/*PORTFOLIO*/
+	#portfolio {padding: 0;}
+	#portfolio .item >img {height: 600px; width: 100%;}
+
+/*ABOUT*/
+	#about .about-title {font-size: 95%; padding-top: 5em; width: 50%;}
+	#about .btn-sm >i {margin-right: 0.5em;}
+	#about .side-photo {padding-top: 10em; padding-bottom: 7em; width: 50%;}
+
+/*CONTACT*/
+	#contact .contact-title {text-align: center; font-size: 95%; padding-bottom: 5em; padding-top: 10em;}
+	#contact .contact-title >i {color: #444; font-size: 3em;}
+	#contact .contact-user {padding-bottom: 5em;}
+	#contact .contact-form {background: #1EA062; width: 45%; height: 315px; padding-top: 3em; position: relative;}
+	#contact .contact-info {position: relative; width: 50%; margin-left: 3em;}
+	#contact .contact-info >h2 {font-size: 3em;}
+	#contact .contact-details {padding-top: 1em; padding-bottom: 2em; color: #444; font-size: 1.5em;}
+
+/*FOOTER*/
+	#footer-holder {background: #1EA062; padding-top: 1em;}
+	#footer-holder .copyright {position: relative; font-size: 1.3em; float: left; padding: 0.5em;}
+	#footer-holder .sc >li {list-style-type: none; float: right; font-size: 1.5em; position: relative;}
+	#footer-holder .sc >li >a {color: #fff;}
+	#footer-holder .sc >li >a:hover {text-decoration: none; color: #444;}		
+}
+
 @media only screen and (max-width: 1140px) {
 /*HOME*/
 	#home .tagline {padding-top: 15em; text-align: center;}
-	#home .tagline >img {position: relative; left: 17%;}
-	#home .tagline >h5 {font-size: 2em; padding-bottom: 2em;}
-	#home .arrow {padding-top: 1.5em; margin: 5em; left: 42%;}
-	#home .arrow >i {font-size: 2em; color: #fff;}
+	#home .tagline >img {position: relative; left: 22%;}
 
 /*SERVICES*/
 	#services .service-title {text-align: center; font-size: 95%; padding-top: 7em; padding-bottom: 7em;}
@@ -65,7 +100,7 @@
 
 /*PORTFOLIO*/
 	#portfolio {padding: 0;}
-	#portfolio .item >img {height: 450px;}
+	#portfolio .item >img {height: 450px; width: 100%;}
 
 /*ABOUT*/
 	#about .about-title {font-size: 95%; padding-top: 5em; width: 50%;}
@@ -92,10 +127,7 @@
 @media only screen and (max-width: 960px) {
 /*HOME*/
 	#home .tagline {padding-top: 15em; text-align: center;}
-	#home .tagline >img {position: relative; left: 17%;}
-	#home .tagline >h5 {font-size: 2em; padding-bottom: 2em;}
-	#home .arrow {padding-top: 1.5em; margin: 5em; left: 41%;}
-	#home .arrow >i {font-size: 2em; color: #fff;}
+	#home .tagline >img {position: relative; left: 14%;}
 
 /*SERVICES*/
 	#services .service-title {text-align: center; font-size: 90%; padding-top: 7em; padding-bottom: 7em;}
@@ -136,10 +168,7 @@
 @media only screen and (max-width: 780px) {
 /*HOME*/
 	#home .tagline {padding-top: 15em; text-align: center;}
-	#home .tagline >img {position: relative; left: 17%;}
-	#home .tagline >h5 {font-size: 2em; padding-bottom: 2em;}
-	#home .arrow {padding-top: 1.5em; margin: 5em; left: 39%;}
-	#home .arrow >i {font-size: 2em; color: #fff;}
+	#home .tagline >img {position: relative; left: 7%;}
 
 /*SERVICES*/
 	#services .service-title {text-align: center; font-size: 85%; padding-top: 7em; padding-bottom: 7em;}
@@ -181,10 +210,7 @@
 @media only screen and (max-width: 640px) {
 /*HOME*/
 	#home .tagline {padding-top: 15em; text-align: center;}
-	#home .tagline >img {position: relative; left: 17%;}
-	#home .tagline >h5 {font-size: 2em; padding-bottom: 2em;}
-	#home .arrow {padding-top: 1.5em; margin: 5em; left: 39%;}
-	#home .arrow >i {font-size: 2em; color: #fff;}
+	#home .tagline >img {position: relative; left: 0%;}
 
 /*SERVICES*/
 	#services .service-title {text-align: center; font-size: 80%; padding-top: 7em; padding-bottom: 7em;}
@@ -193,7 +219,7 @@
 	#services .list {width: 160px; height: 160px; position: relative; margin-bottom: 5em; margin-right: 2em; padding-top: 3em; float: left;}
 	#services .list-icons {font-size: 10em;}
 	#services .cat-name >h5 {font-size: 1.5em; position: relative; padding-top: 2.3em; text-align: center;}
-	#services .butones {position: relative; left: 34.5%; margin-top: 4em; margin-bottom: 5em;}
+	#services .butones {position: relative; left: 33.5%; margin-top: 4em; margin-bottom: 5em;}
 	#services .btn-lg >i {margin-right: 0.5em;}
 
 /*PORTFOLIO*/
@@ -201,9 +227,9 @@
 	#portfolio .item >img {height: 400px;}
 
 /*ABOUT*/
-	#about .about-title {font-size: 80%; padding-top: 5em;}
+	#about .about-title {font-size: 80%; padding-top: 5em; width: 100%;}
 	#about .btn-sm >i {margin-right: 0.5em;}
-	#about .side-photo {padding-top: 3em; padding-bottom: 7em;}
+	#about .side-photo {padding-top: 3em; padding-bottom: 7em; width: 100%;}
 
 /*CONTACT*/
 	#contact .contact-title {text-align: center; font-size: 80%; padding-bottom: 5em;}
@@ -223,10 +249,7 @@
 @media only screen and (max-width: 560px) {
 /*HOME*/
 	#home .tagline {padding-top: 15em; text-align: center;}
-	#home .tagline >img {position: relative; left: 17%;}
-	#home .tagline >h5 {font-size: 1.5em; padding-bottom: 2em;}
-	#home .arrow {padding-top: 1.5em; margin: 5em; left: 35%;}
-	#home .arrow >i {font-size: 2em; color: #fff;}
+	#home .tagline >img {position: relative; left: 0%;}
 
 /*SERVICES*/
 	#services .service-title {text-align: center; font-size: 70%; padding-top: 7em; padding-bottom: 7em;}
@@ -235,7 +258,7 @@
 	#services .list {width: 140px; height: 140px; position: relative; margin-bottom: 5em; margin-right: 2em; padding-top: 3em; float: left;}
 	#services .list-icons {font-size: 8em;}
 	#services .cat-name >h5 {font-size: 1.5em; position: relative; padding-top: 2.3em; text-align: center;}
-	#services .butones {position: relative; left: 30%; margin-top: 4em; margin-bottom: 5em;}
+	#services .butones {position: relative; left: 30.5%; margin-top: 4em; margin-bottom: 5em;}
 	#services .btn-lg >i {margin-right: 0.5em;}
 
 /*PORTFOLIO*/
@@ -243,9 +266,9 @@
 	#portfolio .item >img {height: 350px;}
 
 /*ABOUT*/
-	#about .about-title {font-size: 70%; padding-top: 5em;}
+	#about .about-title {font-size: 70%; padding-top: 5em; width: 100%;}
 	#about .btn-sm >i {margin-right: 0.5em;}
-	#about .side-photo {padding-top: 3em; padding-bottom: 7em;}
+	#about .side-photo {padding-top: 3em; padding-bottom: 7em; width: 100%;}
 
 /*CONTACT*/
 	#contact .contact-title {text-align: center; font-size: 70%; padding-bottom: 5em;}
@@ -266,10 +289,7 @@
 @media only screen and (max-width: 460px) {
 /*HOME*/
 	#home .tagline {padding-top: 15em; text-align: center;}
-	#home .tagline >img {position: relative; left: 17%;}
-	#home .tagline >h5 {font-size: 1.5em; padding-bottom: 2em;}
-	#home .arrow {padding-top: 1.5em; margin: 5em; left: 33%;}
-	#home .arrow >i {font-size: 2em; color: #fff;}
+	#home .tagline >img {position: relative; left: 0%;}
 
 /*SERVICES*/
 	#services .service-title {text-align: center; font-size: 70%; padding-top: 7em; padding-bottom: 7em;}
@@ -277,7 +297,7 @@
 	#services .list {width: 110px; height: 110px; position: relative; margin-right: 1.5em; padding-top: 2em;}
 	#services .list-icons {font-size: 7em;}
 	#services .cat-name >h5 {font-size: 1em; position: relative; text-align: center;}
-	#services .butones {position: relative; left: 25%; margin-top: 2em; margin-bottom: 5em;}
+	#services .butones {position: relative; left: 26.5%; margin-top: 2em; margin-bottom: 5em;}
 	#services .btn-lg >i {margin-right: 0.5em;}
 
 /*PORTFOLIO*/
@@ -285,9 +305,9 @@
 	#portfolio .item >img {height: 350px;}
 
 /*ABOUT*/
-	#about .about-title {font-size: 70%; padding-top: 5em;}
+	#about .about-title {font-size: 70%; padding-top: 5em; width: 100%;}
 	#about .btn-sm >i {margin-right: 0.5em;}
-	#about .side-photo {padding-top: 3em; padding-bottom: 7em;}
+	#about .side-photo {padding-top: 3em; padding-bottom: 7em; width: 100%;}
 
 /*CONTACT*/
 	#contact .contact-title {text-align: center; font-size: 70%; padding-bottom: 5em;}
@@ -299,7 +319,7 @@
 /*FOOTER*/
 	#footer-holder {background: #1EA062; padding-top: 1em;}
 	#footer-holder .copyright {position: relative; text-align: center; font-size: 1.3em;}
-	#footer-holder .sc >li {list-style-type: none; float: left; font-size: 1.5em; position: relative; left: 35%;}
+	#footer-holder .sc >li {list-style-type: none; float: left; font-size: 1.5em; position: relative; left: 45%;}
 	#footer-holder .sc >li >a {color: #fff;}
 	#footer-holder .sc >li >a:hover {text-decoration: none; color: #444;}
 }
@@ -308,17 +328,16 @@
  body {line-height: 2em; color: #fff;}
 /*HOME*/
 	#home .tagline {padding-top: 15em; text-align: center;}
-	#home .tagline >h5 {font-size: 1.5em; padding-bottom: 2em;}
-	#home .arrow {padding-top: 1.5em; margin: 5em; left: 23%;}
-	#home .arrow >i {font-size: 2em; color: #fff;}
+	#home .tagline >img {position: relative; left: 1%;}
 
 /*SERVICES*/
 	#services .service-title {text-align: center; font-size: 65%; padding-top: 7em; padding-bottom: 7em;}
 	#services .service-title >i {color: #444; font-size: 3em;}
+	#services .flaticons {position: relative; left: 0;}
 	#services .list {width: 150px; height: 150px; position: relative; margin-bottom: 5em; padding-top: 2em; left: 20%;}
 	#services .list-icons {font-size: 11em;}
 	#services .cat-name >h5 {font-size: 1.5em; position: absolute; padding-top: 1.3em; padding-left: 1em;}
-	#services .butones {position: relative; left: 15%; margin-top: 2em; margin-bottom: 5em;}
+	#services .butones {position: relative; left: 14.5%; margin-top: 2em; margin-bottom: 5em;}
 	#services .btn-lg >i {margin-right: 0.5em;}
 
 /*PORTFOLIO*/
@@ -326,21 +345,22 @@
 	#portfolio .item >img {height: 350px;}
 
 /*ABOUT*/
-	#about .about-title {font-size: 65%; padding-top: 5em;}
+	#about .about-title {font-size: 65%; padding-top: 5em; width: 100%;}
 	#about .btn-sm >i {margin-right: 0.5em;}
-	#about .side-photo {padding-top: 3em; padding-bottom: 7em;}
+	#about .side-photo {padding-top: 3em; padding-bottom: 7em; width: 100%;}
 
 /*CONTACT*/
 	#contact .contact-title {text-align: center; font-size: 65%; padding-bottom: 5em;}
 	#contact .contact-title >i {color: #444; font-size: 3em;}
 	#contact .contact-form {background: #1EA062; width: 100%; height: 315px; padding-top: 3em; position: relative;}
+	#contact .contact-info {padding: 0;}
 	#contact .contact-info >h2 {font-size: 3em;}
 	#contact .contact-details {padding-bottom: 2em; color: #444; font-size: 1.5em;}
 
 /*FOOTER*/
 	#footer-holder {background: #1EA062; padding-top: 1em;}
 	#footer-holder .copyright {position: relative; text-align: center; font-size: 1.3em;}
-	#footer-holder .sc >li {list-style-type: none; float: left; font-size: 1.5em;}
+	#footer-holder .sc >li {list-style-type: none; float: left; font-size: 1.5em; left: 15%; padding-top: 0;}
 	#footer-holder .sc >li >a {color: #fff;}
 	#footer-holder .sc >li >a:hover {text-decoration: none; color: #444;}
 }

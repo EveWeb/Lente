@@ -13,7 +13,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/responsive.css">
-	<!-- <link rel="stylesheet" href="./css/mq.css"> -->
+	<link rel="stylesheet" href="./css/animate.css">
 	<link rel="stylesheet" href="./css/style.css">
 
 	<script src="./js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -51,11 +51,8 @@
 <div class="container">
 <div class="row">
 	<div class="tagline col-md-12 col-lg-12">
-		<img src="./img/camera.png" class="img-responsive" width="256px" height="256px">
-		<h5>You can only create new memories, when you remember the old ones. - portside</h5>
+		<img src="./img/shutter-camera.png" class="img-responsive" width="529px" height="514px">
 	</div>
-	<a href="#services" class="arrow-effects">
-	<div class="arrow col-md-12 col-lg-12"><i class="icon-double-angle-down"></i></div></a>
 </section>
 
 <!-- SERVICES-->
@@ -220,34 +217,39 @@
 <script src="./js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 <script src="./js/modernizr.js"></script>
 <script src="./js/respond.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script>
+		var intval = null;
+		var pos = 0;
+
+			$(document).ready(function() {
+
+
+    		intval = window.setInterval(moveBg, 200);
+			});
+
+		function moveBg() {
+    
+    	pos++;
+    
+    	$("#home").css({backgroundPosition: (pos * 10) + "px 0px"});
+		}
+
+	</script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
-<script>
-	var carouselContainer = $('.carousel');
-	var slideInterval = 2000;
-}
-	carouselContainer.carousel({
+	<script>
+		var carouselContainer = $('.carousel');
+		var slideInterval = 2000;
+		}
+		carouselContainer.carousel({
     	interval: slideInterval,
     	cycle: true,
-	}).on('slid.bs.carousel', function() {
+		}).on('slid.bs.carousel', function() {
     	toggleCaption();
-});
-</script>
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		});
+	</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 <script src="./js/scroll-to/lib/jquery-scrollto.js"></script>
-<script>
-	$('#navbar').scrollTo({
-    	var duration: 2000,
-    	durationMode: 'all'
-	});
-</script>
-<script src="./js/backstretch/libs/jquery/jquery.js"></script>
-<script src="./js/backstretch/src/jquery.backstretch.js"></script>
-<script>
-	$.backstretch(["./img/bg.jpg"]);
-    $("#services").backstretch("./img/service-bg.jpg");
-    $("#about").backstretch("./img/service-bg.jpg");
-    $("#contact").backstretch("./img/service-bg.jpg")
-  </script>	
 </body>
 </html>
