@@ -1,4 +1,4 @@
-infinity
+Lente
 ========
 
 Single Page Website (on-process)
