@@ -2,7 +2,7 @@ html, body {
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	background: url('../img/service-bg.jpg');
-	overflow-x: scroll; 
+	overflow-x: hidden; 
 }
 
 h1 {font-size: 15em; font-weight: 300;}
