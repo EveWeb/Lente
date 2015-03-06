@@ -1,272 +1,103 @@
-<!Doctype html>
-<html lang = "en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>LENTE</title>
-
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="viewport" content="width=device-width">
+	<title>Single Page Website</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
 
-	<link rel="stylesheet" href="./css/bootstrap/bootstrap.css">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" href="./css/responsive.css">
-	<link rel="stylesheet" href="./css/style.css">
+<header class="col-md-12 col-xs-12">
+		<nav class="navbar navbar-inverse navigation">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Brand</a>
+		    </div>
 
-	<script src="./js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-	
-<body>
-<header>
-	<nav id="navbar" class="navbar navbar-default" role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img src="img/lente-logo.png" class="img-responsive"></a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav nav-pills navbar-right">
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#contact" >CONTACT</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#home">home</a></li>
+						<li><a href="#services">services</a></li>
+						<li><a href="#portfolio">portfolio</a></li>
+						<li><a href="#about">about</a></li>
+						<li><a href="#contact">contact</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
 </header>
-<!-- HOME -->
-<section id="home" class="col-sm-12 col-md-12 col-lg-12">
-<div class="container">
-<div class="row">
-	<div class="tagline col-md-12 col-lg-12">
-		<img src="./img/shutter-camera.png" class="img-responsive" width="529px" height="514px">
+
+<section id="home">
+	<div class="container">
+		<div class="row">
+			<div class="message col-md-10 col-xs-12">
+				<h1>Single Page Website</h1>
+				<p>Fusce a quam. Suspendisse faucibus, nunc et pellentesque.</p>
+				<p>Nullam tincidunt adipiscing enim. Cras sagittis.</p>
+			</div><!--end of .message-->
+
+			<div class="circle">
+				<a href="#services"><i class="fa fa-angle-double-down"></i></a>
+			</div><!--end of .circle-->
+		</div>
 	</div>
 </section>
-
-<!-- SERVICES-->
-<section id="services" class="col-sm-12 col-md-12 col-lg-12">
-<div class="container">
-<div class="row">
-		<div class="service-title col-sm-12 col-md-12 col-lg-12">
-			<i class="icon-minus"></i>
-			<h2 class="h2-gray-b">WHAT I DO</h2>
-			<p class="p-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget metus sit amet velit hendrerit rutrum. Maecenas porttitor eu magna id condimentum. Nunc scelerisque lacus vel metus auctor, id viverra risus accumsan.</p>
-<!-- 			<div class="read-more"><i class="icon-folder-open-alt"></i><a href="#">READ MORE</a></div> -->
-		</div>
-		<div class="flaticons col-sm-12 col-md-12 col-lg-12">
-			<div class="list col-md-4 col-lg-4">
-				<span class="list-icons"><i class="icon-camera"></i></span>
-				<span class="cat-name"><h5 class="h5-gray-b">PHOTOGRAPHY</h5></span>
-			</div>
-
-			<div class="list col-md-4 col-lg-4">
-				<span class="list-icons"><i class="icon-facetime-video"></i></span>
-				<span class="cat-name"><h5 class="h5-gray-b">VISUAL ARTS</h5></span>
-			</div>
-
-			<div class="list col-md-4 col-lg-4">
-				<span class="list-icons"><i class="icon-edit-sign"></i></span>
-				<span class="cat-name"><h5 class="h5-gray-b">GRAPHIC DESIGN</h5></span>
-			</div>
-		</div><!--end of flaticons-->
-	<div class="clearfix"></div>
-	<div class="butones">
-		<button class="btn-lg"><i class="icon-folder-open"></i><a href="#">TELL US ABOUT</a></button>
-	</div>
-</div><!--end of row-->
-</div><!--end of container-->
+<div class="clearfix"></div>
+<section id="services">
+	<ul>
+		<li class="col-md-3 col-xs-12" style="background: #8BD07C;">
+			<h2>Brainstorming</h2>
+			<br><br><br>
+			<i class="fa fa-lightbulb-o fa-5x"></i>
+			<br><br><br>
+			<small>Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam. Praesent adipiscing. Fusce vulputate eleifend sapien. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Pellentesque dapibus hendrerit tortor.</small>
+		</li>
+		<li class="col-md-3 col-xs-12" style="background: #75C36D;">
+			<h2>Design</h2>
+			<br><br><br>
+			<i class="fa fa-paint-brush fa-5x"></i>
+			<br><br><br>
+			<small>Nunc egestas, augue at pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis pede. Cras ultricies mi eu turpis hendrerit fringilla. Morbi mollis tellus ac sapien. Etiam feugiat lorem non metus.</small>
+		</li>
+		<li class="col-md-3 col-xs-12" style="background: #5CB45A;">
+			<h2>Development</h2>
+			<br><br><br>
+			<i class="fa fa-code fa-5x"></i><br><br><br>
+			<small>Vestibulum suscipit nulla quis orci. Vivamus consectetuer hendrerit lacus. Phasellus nec sem in justo pellentesque facilisis. Nam pretium turpis et arcu. Ut a nisl id ante tempus hendrerit.</small>
+		</li>
+		<li class="col-md-3 col-xs-12" style="background: #40AA4B;">
+			<h2>Maintenance</h2>
+			<br><br><br>
+			<i class="fa fa-desktop fa-5x"></i><br><br><br>
+			<small>Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Nam adipiscing. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit. Phasellus consectetuer vestibulum elit.</small>
+		</li>
+	</ul>
 </section>
 
-<!-- PORTFOLIO -->
-<section id="portfolio" class="col-sm-12 col-md-12 col-lg-12">
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-    <li data-target="#myCarousel" data-slide-to="4"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-
-    <div class="item active">
-      <img src="./img/gal-one.jpg" alt="gallery-one" class="img-responsive">
-    </div>
-
-    <div class="item">
-      <img src="./img/gal-two.jpg" alt="gallery-two" class="img-responsive">
-    </div>
-
-    <div class="item">
-      <img src="./img/gal-three.jpg" alt="gallery-three" class="img-responsive">
-    </div>
-
-    <div class="item">
-      <img src="./img/gal-four.jpg" alt="gallery-four" class="img-responsive">
-    </div>
-
-    <div class="item">
-      <img src="./img/gal-five.jpg" alt="gallery-five" class="img-responsive">
-    </div>
-
-  </div><!--end of carousel-inner-->
-</div>
-</section>
-
-<!-- ABOUT -->
-<section id="about" class="col-sm-12 col-md-12 col-lg-12">
-<div class="container">
-<div class="row">
-	<div class="about-title col-sm-12 col-md-6 col-lg-6">
-			<h2 class="h2-gray">Hello Guys!</h2>
-			<p class="p-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget metus sit amet velit hendrerit rutrum. Maecenas porttitor eu magna id condimentum. Nunc scelerisque lacus vel metus auctor, id viverra risus accumsan. Nullam auctor sodales urna nec consequat. Vivamus nec justo orci. Fusce porttitor volutpat urna, eget auctor odio venenatis nec. Etiam a est mauris. Quisque tempus tincidunt facilisis. Phasellus porta eu purus et tempor. Praesent sit amet neque eget metus placerat auctor. Cras pellentesque purus non nulla ultricies mollis.
-			<br><br>
-			Etiam venenatis lorem feugiat turpis pulvinar, id tristique libero congue. Fusce id nibh a urna lobortis ornare. Vestibulum lorem tellus, interdum vel convallis eget, posuere ut tortor. Aenean et tincidunt nunc. Phasellus ullamcorper tempus urna nec vulputate. Pellentesque ullamcorper risus tincidunt nulla elementum euismod. Vivamus ultrices leo sed posuere elementum. Curabitur in leo ipsum.
-			</p>
-
-			<div class="butones">
-				<button class="btn-sm"><i class="icon-folder-open"></i><a href="#">READ MORE</a></button>
-			</div>
-		</div>
-		<div class="side-photo col-sm-12 col-md-6 col-lg-6">
-			<img src="img/ser.jpg" class="img-responsive">
-		</div><!--end of side photo-->
-	<div class="clearfix"></div>
-			
-</div><!--end of row-->
-</div><!--end of container-->
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="col-sm-12 col-md-12 col-lg-12">
-<div class="container">
-<div class="row">
-	<div class="contact-title col-sm-12 col-md-12">
-			<i class="icon-minus"></i>
-			<h2 class="h2-gray-b">WHERE AM I</h2>
-			<p class="p-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget metus sit amet velit hendrerit rutrum. Maecenas porttitor eu magna id condimentum. Nunc scelerisque lacus vel metus auctor, id viverra risus accumsan.</p>
-	</div>
-	<div class="contact-user col-sm-12 col-md-12 col-lg-12">
-		<div class="contact-form col-sm-12 col-md-6 col-lg-6">
-			<input type="text" class="form-control" placeholder="Name">
-			<input type="text" class="form-control" placeholder="Email">
-			<textarea rows="5" placeholder="Comment..." class="form-control"></textarea>
-			<button class="btn btn-lg" style="float: right; font-size: 1.5em;">SUBMIT</button>
-		</div>
-
-		<div class="contact-info col-sm-12 col-md-6 col-lg-6">
-				<h2 class="h2-gray">Say Hello!</h2>
-
-			<div class="contact-details">
-					<span class="cons"><i class="icon-phone-sign"></i></span>
-					<span class="add-info">+639XXXXXXXX</span>
-			</div>
-
-			<div class="contact-details">
-					<span class="cons"><i class="icon-envelope"></i></span>
-					<span class="add-info">info@helloworld.com</span>
-			</div>
-
-			<div class="contact-details">
-					<span class="cons"><i class="icon-road"></i></span>
-					<span class="add-info"> Location</span>
-			</div>
-		</div><!--end of contact-info-->
-	</div><!--end of contact-user-->
-</div><!--end of row-->
-</div><!--end of container-->
-</section>
-
-<!-- FOOTER -->
-<footer>
-<div id="footer-holder" class="col-sm-12 col-md-12 col-lg-12">
-<div class="container">
-<div class="row">
-		<div class="copyright col-md-6 col-lg-6">
-			<p>© Copyright 2014</p>
-		</div>
-
-		<div class="social-nets col-md-6 col-lg-6">
-			<ul class="sc">
-				<li class="col-sm-1 col-md-1 col-lg-1"><a href="#"><i class="icon-facebook"></i></a></li>
-				<li class="col-sm-1 col-md-1 col-lg-1"><a href="#"><i class="icon-twitter"></i></a></li>
-				<li class="col-sm-1 col-md-1 col-lg-1"><a href="#"><i class="icon-github-alt"></i></a></li>
-				<li class="col-sm-1 col-md-1 col-lg-1"><a href="#"><i class="icon-google-plus"></i></a></li>
-			</ul>
-		</div>
-</div><!--end of row-->
-</div><!--end of container-->
-</div><!--end of folder-holder-->
-</footer>
-
-<script src="./js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-<script src="./js/modernizr.js"></script>
-<script src="./js/respond.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src='js/bootstrap.min.js'></script>
+<script src='owl.craousel.min.js'></script>
 <script>
-  $(function() {
-        $('.nav-pills > li').click(function() {
-           $('.nav-pills > li').removeClass();
-           $($(this).attr('href')).addClass('.active');
-        });
-     });
+	$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+				|| location.hostname == this.hostname) {
+					var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+						if (target.length) {
+							$('html,body').animate({
+								scrollTop: target.offset().top
+							}, 1000);
+							return false;
+					}
+			}
+	});
 </script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script>
-		var interval = null;
-		var pos = 0;
-
-			$(document).ready(function() {
-			interval = window.setInterval(moveBg, 100);
-		});
-			function moveBg() {
-				pos++;
-			$("#home").css({backgroundPosition: (pos * 10) + "px 0px"});
-		}
-	</script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-	<script>
-		var carouselContainer = $('.carousel');
-		var slideInterval = 2000;
-		}
-		carouselContainer.carousel({
-    	interval: slideInterval,
-    	cycle: true,
-		}).on('slid.bs.carousel', function() {
-    	toggleCaption();
-		});
-	</script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-<script src="./js/jquery.scrollTo/jquery.scrollTo.js"></script>
-	<script>
-		$('a[href*=#]:not([href=#])').click(function() {
-    		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-    			|| location.hostname == this.hostname) {
-
-        		var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-           		if (target.length) {
-             		$('html,body').animate({
-                 	scrollTop: target.offset().top
-            		}, 1000);
-            		return false;
-        		}
-    		}
-		});
-	</script>
-</body>
 </html>

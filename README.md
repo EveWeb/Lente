@@ -1,13 +1,6 @@
-Lente
-========
+Single Page Website
+===================
 
-Single Page Website (on-process)
+This is my own project to practice my skills, and update the whole look and feel of this project to make it presentable.
 
-HTML5<br>
-Bootstrap v.3<br>
-respond<br>
-modernizr<br>
-font-awesome 3.2.1<br>
-
-
-
+Here are the framework I used:
