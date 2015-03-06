@@ -81,10 +81,20 @@
 		</li>
 	</ul>
 </section>
+<div class="clearfix"></div>
+<section id="portfolio">
+	<div id="owl-demo" class="owl-carousel owl-theme">
+	  <div class="item"><img src="img/travel1.jpg" alt=""></div>
+	  <div class="item"><img src="img/travel2.jpg" alt=""></div>
+	  <div class="item"><img src="img/travel3.jpg" alt=""></div>
+		<div class="item"><img src="img/travel4.jpg" alt=""></div>
+		<div class="item"><img src="img/travel5.jpg" alt=""></div>
+	</div>
+</section>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src='js/bootstrap.min.js'></script>
-<script src='owl.craousel.min.js'></script>
+<script src='js/owl.carousel.min.js'></script>
 <script>
 	$('a[href*=#]:not([href=#])').click(function() {
 			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
@@ -98,6 +108,20 @@
 							return false;
 					}
 			}
+	});
+</script>
+<script>
+	$(document).ready(function() {
+
+	  $("#owl-demo").owlCarousel({
+
+	      navigation : true,
+				autoPlay : true,
+	      slideSpeed : 200,
+	      paginationSpeed : 400,
+	      singleItem:true
+	  });
+
 	});
 </script>
 </html>
