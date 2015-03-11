@@ -1,7 +1,7 @@
 Single Page Website
 ===================
 
-This is my own project to practice my skills, and update the whole look and feel of this project to make it presentable.
+I made this project as one of my portfolio and also to practice my skills, I just update the whole look and feel of this project to make it presentable.
 
 Here are the framework I used:
 
@@ -9,7 +9,7 @@ bootstrap-3.3.2
 font-awesome-4.3.0
 owl.carousel
 
-I got all the images I used on freepik:
+I got all the images on freepik.com below are the links of the images.
 
 https://unsplash.com/photos/0fjGQmYCRW8
 

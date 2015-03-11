@@ -19,7 +19,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="#">Brand</a>
+		      <a class="navbar-brand" href="#home">Brand</a>
 		    </div>
 
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
@@ -81,6 +81,7 @@
 		</li>
 	</ul>
 </section>
+
 <div class="clearfix"></div>
 <section id="portfolio">
 	<div id="owl-demo" class="owl-carousel owl-theme">
@@ -91,6 +92,104 @@
 		<div class="item"><img src="img/travel5.jpg" alt=""></div>
 	</div>
 </section>
+
+<div class="clearfix"></div>
+<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="about-info col-md-6">
+					<h1>I am a title</h1>
+
+					<p>Suspendisse feugiat. Mauris sollicitudin fermentum libero. Aenean massa. Cras non dolor. In consectetuer turpis ut velit.<br><br>Aenean viverra rhoncus pede. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis lobortis massa imperdiet quam. Integer tincidunt. Vestibulum ullamcorper mauris at ligula.</p>
+					<br>
+					<a href="#services" class="btn btn-success">Read More</a>
+				</div><!--end of .about-info-->
+
+				<div class="col-md-6 col-xs-12">
+					<img src="img/about-photo.jpg" alt="">
+				</div>
+			</div>
+		</div><!--end of .row-->
+	</div><!--end of .container-->
+</section>
+
+<section id="contact">
+	<div class="map col-md-12 col-xs-12">
+		<h1>Let's keep in touch!</h1>
+		<p>Maecenas vestibulum mollis diam. Praesent egestas tristique nibh. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d246625.18958353085!2d120.67083245!3d15.019405749999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1426052934789" height="300" frameborder="0" style="border:0"></iframe>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-xs-12">
+				<div class="form col-md-6 col-xs-12">
+					<form class="form-horizontal">
+						<fieldset>
+							<div class="form-group has-success">
+								<input type="text" class="form-control" placeholder="Name" id="inputSuccess">
+							</div>
+
+							<div class="form-group has-success">
+								<select name="" id="inputSuccess" class="form-control">
+									<option value="" selected>Subject</option>
+									<option value="">choose1</option>
+									<option value="">choose2</option>
+								</select>
+								    </div>
+
+								<div class="form-group has-success">
+								  <input type="text" class="form-control" id="inputSuccess" placeholder="Email">
+								</div>
+
+								<div class="form-group has-success">
+								  <textarea class="form-control" rows="5" id="inputSuccess" placeholder="Message" style=" resize:none;"></textarea>
+								</div>
+
+								<div class="form-group">
+								  <button type="submit" class="btn btn-primary form-control">Submit</button>
+								</div>
+						</fieldset>
+					</form>
+				</div><!--end of .form-->
+
+				<div class="contact-details col-md-6 col-xs-12">
+					<h2>Join our Conversation</h2>
+					<ul class="social-nets">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+
+					<ul class="contact-info">
+						<li>
+							<span class="icon"><i class="fa fa-phone fa-2x"></i></span>
+							+639 XXXX XXXX
+						</li>
+						<li>
+							<span class="icon"><i class="fa fa-envelope fa-2x"></i></span>
+							info@sample.com
+						</li>
+						<li>
+							<span class="icon"><i class="fa fa-map-marker fa-2x"></i></span>
+							This is just a dummy texts.
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div><!--end of .row-->
+	</div><!--end of .container-->
+</section>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<p>Copyright © 2014 - 2015 www.nameofyoursite.com All Rights Reserved.</p>
+		</div><!--end of .row-->
+	</div><!--end of .container-->
+</footer>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src='js/bootstrap.min.js'></script>
@@ -112,16 +211,13 @@
 </script>
 <script>
 	$(document).ready(function() {
-
 	  $("#owl-demo").owlCarousel({
-
 	      navigation : true,
 				autoPlay : true,
 	      slideSpeed : 200,
 	      paginationSpeed : 400,
 	      singleItem:true
 	  });
-
 	});
 </script>
 </html>

@@ -9,6 +9,10 @@ header {
 	padding: 0 !important;
 	z-index: 999999;
 }
+
+img {
+	max-width: 100%;
+}
 /*===============================
 NAVIGATION
 =================================*/
@@ -24,7 +28,9 @@ NAVIGATION
 
 .navbar-nav>li>a:hover,
 .navbar-nav>li>a:focus:hover,
-.navbar-nav>li>a:active{
+.navbar-nav>li>a:active:hover,
+#about a:hover, #contact button:hover,
+.navbar-nav>.active>a {
 	background: #4C9857 !important;
 }
 /*===============================
@@ -93,9 +99,115 @@ PORTFOLIO
     height: auto;
 }
 
-owl-buttons{
+.owl-buttons{
 	position: absolute !important;
-	top: 90% !important;
-	left: 50% !important;
+	top: 80% !important;
+	left: 47% !important;
 	color: #fff !important;
+}
+
+.owl-prev, .owl-next {
+	display: inline-block;
+	background: #00703C;
+	padding: 0.3em 0.5em;
+	margin-right: 0.5em;
+	border-radius: 10px;
+}
+/*===============================
+ABOUT
+=================================*/
+#about, .about-info {
+	padding-top: 2em;
+	margin-bottom: 5em;
+}
+
+#about a, #contact button {
+	background: #00703C !important;
+	border: none;
+}
+
+#about img {
+	margin-top: 2.5em;
+}
+/*===============================
+CONTACT
+=================================*/
+#contact {
+	margin-top: 5em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+#contact h1 {
+	font-size: 52px;
+	margin-top: 0;
+}
+
+#contact iframe {
+	width: 100%;
+	margin: 2em 0em 2em;
+}
+
+.map {
+	padding: 4em 0em;
+}
+
+.form {
+	background: #d9d9d9;
+	padding: 2em;
+}
+
+.social-nets {
+	list-style-type: none;
+	padding: 0;
+}
+
+.social-nets li {
+	display: inline-block;
+	background: #00703C;
+	width: 30px;
+	height: 30px;
+	border-radius: 3px;
+	text-align: center;
+	margin-top: 0.5em;
+}
+
+.social-nets li a {
+	color: #fff;
+}
+
+.social-nets li a i {
+	padding-top: 0.4em;
+}
+
+.contact-details {
+	padding: 0em 2em;
+	text-align: left;
+}
+
+.contact-info {
+	list-style-type: none;
+	margin-top: 3em;
+}
+
+.contact-info li {
+	margin-bottom: 1em;
+}
+
+.icon {
+	width: 40px;
+	height: 40px;
+	border-radius: 3px;
+	color: #00703C;
+	margin-right: 1em;
+	text-align: center;
+}
+/*===============================
+FOOTER
+=================================*/
+footer {
+	background: #00703C;
+	text-align: center;
+	padding: 1em;
+	color: #fff;
 }
